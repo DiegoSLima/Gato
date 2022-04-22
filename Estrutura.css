@@ -1,0 +1,82 @@
+#Gato > img{
+    width: 55px;
+}
+
+#Muro > img{
+    width: 45px;
+}
+
+#Nuvem > img{
+    width: 100px;
+}
+
+#Rato > img{
+    left: 1100px;
+    position: relative;
+    top: 111px;
+    width: 60px;
+}
+
+#Mato > img{
+    width: 100px;
+}
+
+#Passaros > img{
+    width: 70px;
+    position: relative;
+    left: 700px;
+    top: -100px;
+}
+
+#game{
+    border: 3px solid black;
+}
+
+#Mato{
+    left: 1000px;
+    position: relative;
+    top: 64px;
+}
+
+#Nuvem{
+    left: 800px;
+    position: relative;
+    top: 10px;
+}
+
+#Gato{
+    position: absolute;
+    top: 172px;
+    left: 110px;
+}
+
+#Muro{
+    position: absolute;
+    top: 162px;
+    animation: Muro 3s infinite linear;
+}
+
+.jump{
+    animation: jump 3s linear;
+}
+
+@keyframes Muro{
+    0%{
+        left: 930px;
+    }
+    100%{
+        left: 2px;
+    }
+}
+
+@keyframes jump{
+    0%{
+        top: 30px
+    }
+    50%{
+        top: 2px;
+    }
+    100%{
+        top: 40px;
+    }
+}
